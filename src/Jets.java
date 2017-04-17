@@ -31,12 +31,11 @@ public class Jets {
 			}
 			
 			System.out.println("Model : "+model);
-			System.out.println("Speed : "+speed+"| Mach "+ mach);
-			System.out.println("Model : "+model);
-			System.out.println("Model : "+model);
-			System.out.println("Model : "+model);
-			System.out.println("Model : "+model);
-			
+			System.out.println("Speed : "+speed+"mph | Mach "+ mach);
+			System.out.println("Range : "+range+" miles");
+			System.out.println("Price  : $"+price);
+			System.out.println("*****************************************");
+			this.pilot.pilotStats();
 		}
 
 

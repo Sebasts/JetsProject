@@ -32,6 +32,12 @@ public class Pilot {
 		this.nationality = nationality;
 	}
 	
-	
+	public void pilotStats(){
+		System.out.println("*************************************************");
+		System.out.println("\nPilot's name: "+this.name);
+		System.out.println("\n Pilot's age is "+this.age);
+		System.out.println("\n Pilot's nationality is "+this.nationality);
+		System.out.println("*************************************************");
+	}
 	
 }

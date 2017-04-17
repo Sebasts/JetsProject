@@ -39,13 +39,13 @@ public class HangarAdmin {
 	public static void hangarMenu(int choice, Hangar hangar){
 		
 		switch(choice){
-		case 1: 
+		case 1: hangar.showJets();
 			break;
-		case 2:
+		case 2: hangar.getFastestJet();
 			break;
-		case 3:
+		case 3:	hangar.getJetwithLongestRange();
 			break;
-		case 4:
+		case 4: hangar.addJet();
 			break;
 		}
 	}

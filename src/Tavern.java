@@ -22,7 +22,7 @@ import java.util.ArrayList;
 	}
 	
 	public Pilot getAPilot(){
-		return pilots.get((int)Math.random()*10);
+		return pilots.get((int)(1+(Math.random()*10) - 1));
 	}
 	
 }
